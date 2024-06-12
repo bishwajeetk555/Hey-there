@@ -1,0 +1,9 @@
+const cloudinary = require("cloudinary").v2;
+
+cloudinary.config({
+  cloud_name: "bishwajeet",
+  api_key: "565686533692536",
+  api_secret: "qeCbVSE6u7C4_0WVf680KGjfOtA",
+});
+
+module.exports = cloudinary;
